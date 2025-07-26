@@ -1,0 +1,49 @@
+  body {
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d35400;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f8c471;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #a04000;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #d35400;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    h1 mark {
+      background-color: #fad7a0;
+    }
+    table {
+      width: 90%;
+      margin: 20px
+    }
+    th, td {
+      border: 1px solid #d35400;
+      padding: 10px;
+      background-color: #fcf3cf;
+    }
+    th {
+      background-color: #f7c46c;
+    }
+
+    main{
+        padding: 20px;
+        background-color: wheat;
+    }
