@@ -1,0 +1,18 @@
+
+      body {
+        background-image: url("Space\ vertical\ background.webp"), url("Space.png");
+        background-color: #160135;
+        background-attachment: fixed;
+        background-position: relative;
+      }
+
+
+
+h1{
+    color:white; 
+    padding: 25px;
+    background-color: purple;
+}
+
+
+
