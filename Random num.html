@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2>Random Numbers:</h2>
+  <button onclick="generateNumbers()">Generate</button>
+  <ul id="numberList"></ul>
+
+  <script>
+    function generateNumbers() {
+      const list = document.getElementById("numberList");
+      list.innerHTML = "";
+
+      for (let i = 0; i < 10; i++) {
+        const randomNum = Math.floor(Math.random() * 100) + 1;
+        const listItem = document.createElement("li");
+        listItem.textContent = "Number " + (i + 1) + ": " + randomNum;
+        list.appendChild(listItem);
+      }
+    }
+  </script>
+</body>
+</html
